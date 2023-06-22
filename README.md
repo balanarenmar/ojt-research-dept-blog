@@ -3,6 +3,7 @@ A daily blog record of the On-the-Job Training team at BSCS research department 
 ---
 
 <!-- png of index -->
+<!-- <img src="assets/images/NAME.png" alt="image of index.html" width="90%"> -->
 
 <br>
 

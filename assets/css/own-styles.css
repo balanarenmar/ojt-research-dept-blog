@@ -167,8 +167,14 @@ code.keyword{
     align-items: left;
     overflow: hidden
 }
-.blog-fill img {
+  .blog-fill img {
     flex-shrink: 0;
     min-width: 400px;
     min-height: 100%
 }
+  p.blog-entry {
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+

@@ -25604,6 +25604,27 @@ pre[class*=language-]:before {
     background-repeat: no-repeat;
 }
 
+.lay-customizer .theme-color.background-color.image > a[data-value="background-img-0"],
+  .theme-color.background-color.image > a[data-value="background-img-1"] {
+    background-image: url("../images/nav-bg/bu-torch.jpg");
+}
+
+.lay-customizer .theme-color.background-color.image > a[data-value="background-img-0"] > span:nth-child(1):after, .lay-customizer .theme-color.background-color.image > a[data-value="background-img-1"] > span:nth-child(1):before,
+    .theme-color.background-color.image > a[data-value="background-img-1"] > span:nth-child(1):after,
+    .theme-color.background-color.image > a[data-value="background-img-1"] > span:nth-child(1):before {
+    background: transparent;
+}
+
+.lay-customizer .theme-color.background-color.image > a[data-value="background-img-0"] > span:nth-child(2):before,
+    .theme-color.background-color.image > a[data-value="background-img-1"] > span:nth-child(2):before {
+    background: #fff;
+}
+
+.lay-customizer .theme-color.background-color.image > a[data-value="background-img-0"] > span:nth-child(2):after,
+    .theme-color.background-color.image > a[data-value="background-img-1"] > span:nth-child(2):after {
+    background: linear-gradient(to bottom, transparent 8px, #ecf0f5 0%);
+}
+
 .lay-customizer .theme-color.background-color.image > a[data-value="background-img-1"],
   .theme-color.background-color.image > a[data-value="background-img-1"] {
     background-image: url("../images/nav-bg/body-bg-1.jpg");
@@ -26035,6 +26056,22 @@ pre[class*=language-]:before {
 .doc-img.background-color.image > a {
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.doc-img.background-color.image > a[data-value="background-img-0"] {
+    background-image: url("../images/nav-bg/bu-torch.jpg");
+}
+
+.doc-img.background-color.image > a[data-value="background-img-0"] > span:nth-child(1):after, .doc-img.background-color.image > a[data-value="background-img-1"] > span:nth-child(1):before {
+    background: transparent;
+}
+
+.doc-img.background-color.image > a[data-value="background-img-0"] > span:nth-child(2):before {
+    background: #fff;
+}
+
+.doc-img.background-color.image > a[data-value="background-img-0"] > span:nth-child(2):after {
+    background: linear-gradient(to bottom, transparent 20px, #ecf0f5 0%);
 }
 
 .doc-img.background-color.image > a[data-value="background-img-1"] {
@@ -27195,6 +27232,14 @@ body[class*='background-img-'] .pcoded-navbar.theme-horizontal ~ .pcoded-header[
     background-repeat: no-repeat;
     background-position: top right;
     background-attachment: fixed;
+}
+
+body.background-img-0 {
+    background-image: url("../images/nav-bg/bu-torch.jpg");
+}
+
+body.background-img-0 .pcoded-navbar.theme-horizontal ~ .pcoded-header[class*="header-"] {
+    background-image: url("../images/nav-bg/bu-torch.jpg");
 }
 
 body.background-img-1 {

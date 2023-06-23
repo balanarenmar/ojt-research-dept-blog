@@ -178,3 +178,15 @@ code.keyword{
     
   }
 
+  .opaq-25 {
+    background-color: rgba(236, 240, 245, 0.25) !important;
+  }
+
+  .opaq-50 {
+    background-color: rgba(236, 240, 245, 0.50) !important;
+  }
+
+  .opaq-75 {
+    background-color: rgba(236, 240, 245, 0.75) !important;
+  }
+

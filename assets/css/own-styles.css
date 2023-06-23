@@ -152,10 +152,23 @@ code.keyword{
 .blog-image { 
     height: 100%;
     width: 100%;
-    object-fit: cover
+    object-fit: cover;
+    object-position: 50% 0;
   }
   
   .Xcontainer {
     height: 400px; /*Set any dimensions you like*/
     width: 100%;
   }
+
+  .blog-fill {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    overflow: hidden
+}
+.blog-fill img {
+    flex-shrink: 0;
+    min-width: 400px;
+    min-height: 100%
+}

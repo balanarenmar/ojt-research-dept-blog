@@ -149,3 +149,13 @@ code.keyword{
     color: ghostwhite;
 }
 
+.blog-image { 
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+  }
+  
+  .Xcontainer {
+    height: 400px; /*Set any dimensions you like*/
+    width: 100%;
+  }

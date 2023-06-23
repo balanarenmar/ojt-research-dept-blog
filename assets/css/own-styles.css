@@ -156,9 +156,9 @@ code.keyword{
     object-position: 50% 0;
   }
   
-  .Xcontainer {
+.blog-img-container {
     height: 400px; /*Set any dimensions you like*/
-    width: 100%;
+    width: 100%
   }
 
   .blog-fill {
@@ -178,6 +178,17 @@ code.keyword{
     
   }
 
+  .tab { 
+    display:inline-block; 
+    margin-left: 40px; 
+  }
+
+  .mid-tab { 
+    display:inline-block; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .opaq-25 {
     background-color: rgba(236, 240, 245, 0.25) !important;
   }
@@ -188,5 +199,13 @@ code.keyword{
 
   .opaq-75 {
     background-color: rgba(236, 240, 245, 0.75) !important;
+  }
+
+  .bu-blue {
+    color: #009BDE;
+  }
+
+  .bu-orange {
+    color: #F37123;
   }
 

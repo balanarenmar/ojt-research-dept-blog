@@ -10874,7 +10874,7 @@ header.masthead h1, header.masthead .h1 {
 
 .testimonials {
   padding-top: 2rem;
-  padding-bottom: 7rem;
+  padding-bottom: 6rem;
 }
 .testimonials .testimonial-item {
   max-width: 18rem;
@@ -10916,4 +10916,9 @@ div.demo {
 div.demo span {
   display: table-cell;
   text-align: center;
+}
+
+a.plain {
+  color: black;
+  text-decoration: none;
 }

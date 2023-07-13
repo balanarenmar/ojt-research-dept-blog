@@ -588,8 +588,8 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  max-width: 128px; /* Adjust the value as per your desired width */
+  height: 128px; 
 }
 
 .img-thumbnail {
@@ -10874,13 +10874,14 @@ header.masthead h1, header.masthead .h1 {
 
 .testimonials {
   padding-top: 2rem;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
 }
 .testimonials .testimonial-item {
   max-width: 18rem;
+  max-height: 18rem;
 }
 .testimonials .testimonial-item img {
-  max-width: 12rem;
+  max-width: 8rem;
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 

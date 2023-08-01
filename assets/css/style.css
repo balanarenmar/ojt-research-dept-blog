@@ -1974,8 +1974,8 @@ pre code {
     }
 }
 
-.table {
-    width: 100%;
+.table { 
+    width: 100% !important;
     margin-bottom: 1rem;
     color: #373a3c;
 }

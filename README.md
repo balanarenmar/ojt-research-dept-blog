@@ -14,3 +14,8 @@ Robert Segarra **Barnard**<br>
 Mikaela **Bayonito**<br>
 Leandro **Francia**<br>
 
+Jan Orlan **Cardona**<br>
+JP **Del Rosario**<br>
+Jurineil **Llaneta**<br>
+Kyle Arteal **Roque**<br>
+Gerald John **Sotto**<br>

@@ -161,6 +161,11 @@ code.keyword{
     width: 100%
   }
 
+.blog-img-container-cardona {
+    height: fit-content; /*Set any dimensions you like*/
+    width: 100%
+  }
+
   .blog-fill {
     display: flex;
     justify-content: left;
